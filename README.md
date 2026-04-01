@@ -1,5 +1,3 @@
-## README
-
 # WobbleRTP
 
 WobbleRTP is a modern, high-performance random teleport plugin with a GUI-based interface and asynchronous location search. It is designed for SMP and large-scale servers where performance, safety, and user experience are critical.
