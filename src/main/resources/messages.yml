@@ -1,0 +1,41 @@
+prefix: "<gray>[<gold>WobbleRTP</gold>]</gray> "
+no-permission: "<red>You do not have permission to do that.</red>"
+only-player: "<red>Only players can use this command.</red>"
+gui-title: "<dark_gray>Choose an RTP World</dark_gray>"
+teleport-countdown: "<yellow>Teleporting in <gold><seconds></gold> second(s)... Do not move.</yellow>"
+teleport-success: "<green>Teleported to <gold><world></gold> at <gray>(<x>, <z>)</gray>.</green>"
+teleport-failed: "<red>Unable to find a safe teleport location right now. Please try again.</red>"
+cooldown: "<red>You must wait <gold><time></gold> before using RTP again.</red>"
+reload-success: "<green>WobbleRTP configuration and messages reloaded.</green>"
+movement-cancelled: "<red>Teleport cancelled because you moved.</red>"
+searching: "<gray>Searching for a safe location in <gold><world></gold>...</gray>"
+invalid-world: "<red>The configured RTP world for <gold><world></gold> is unavailable.</red>"
+already-teleporting: "<red>You already have an RTP request in progress.</red>"
+usage: "<yellow>Usage: /rtp or /rtp reload</yellow>"
+
+gui:
+  overworld:
+    name: "<green>Overworld</green>"
+    lore:
+      - "<gray>Safe random teleport in the"
+      - "<gray>main survival world.</gray>"
+      - ""
+      - "<yellow>Click to begin.</yellow>"
+  nether:
+    name: "<red>Nether</red>"
+    lore:
+      - "<gray>Searches the playable nether"
+      - "<gray>without using the bedrock roof.</gray>"
+      - ""
+      - "<yellow>Click to begin.</yellow>"
+  the_end:
+    name: "<light_purple>The End</light_purple>"
+    lore:
+      - "<gray>Find a surface location in"
+      - "<gray>the configured end world.</gray>"
+      - ""
+      - "<yellow>Click to begin.</yellow>"
+  close:
+    name: "<red>Close</red>"
+    lore:
+      - "<gray>Close this menu.</gray>"

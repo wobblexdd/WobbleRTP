@@ -1,0 +1,25 @@
+name: WobbleRTP
+version: 1.0.0
+main: me.wobble.wobblertp.WobbleRTP
+api-version: '1.21'
+authors: [Wobble]
+description: Modern, safe, async-friendly random teleport plugin for Paper.
+
+commands:
+  rtp:
+    description: Open the random teleport menu
+    usage: /rtp
+
+permissions:
+  wobble.rtp.use:
+    description: Use random teleport
+    default: true
+  wobble.rtp.admin:
+    description: Reload WobbleRTP
+    default: op
+  wobble.rtp.bypass.cooldown:
+    description: Bypass RTP cooldowns
+    default: op
+  wobble.rtp.bypass.move:
+    description: Ignore movement cancellation during RTP countdown
+    default: op

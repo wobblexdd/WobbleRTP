@@ -1,0 +1,69 @@
+min-distance: 800
+max-distance: 6000
+teleport-retries: 48
+
+countdown:
+  seconds: 5
+  cancel-on-move: true
+
+cooldown:
+  seconds: 90
+
+worlds:
+  overworld: world
+  nether: world_nether
+  the_end: world_the_end
+
+search:
+  loaded-chunk-attempts: 8
+  nether-max-y: 120
+
+safety:
+  treat-water-as-unsafe: true
+
+disabled-biomes:
+  - DEEP_DARK
+  - BASALT_DELTAS
+
+dangerous-blocks:
+  - LAVA
+  - FIRE
+  - SOUL_FIRE
+  - CAMPFIRE
+  - SOUL_CAMPFIRE
+  - MAGMA_BLOCK
+  - CACTUS
+  - SWEET_BERRY_BUSH
+  - WITHER_ROSE
+  - POWDER_SNOW
+  - COBWEB
+  - END_PORTAL
+  - NETHER_PORTAL
+  - END_GATEWAY
+
+sounds:
+  enabled: true
+  gui-open:
+    name: UI_BUTTON_CLICK
+    volume: 0.7
+    pitch: 1.2
+  searching:
+    name: BLOCK_NOTE_BLOCK_PLING
+    volume: 0.65
+    pitch: 1.6
+  countdown-tick:
+    name: UI_BUTTON_CLICK
+    volume: 0.45
+    pitch: 1.0
+  teleport-success:
+    name: ENTITY_ENDERMAN_TELEPORT
+    volume: 1.0
+    pitch: 1.0
+  teleport-failed:
+    name: ENTITY_VILLAGER_NO
+    volume: 0.9
+    pitch: 1.0
+  movement-cancelled:
+    name: ENTITY_ITEM_BREAK
+    volume: 0.9
+    pitch: 0.8
