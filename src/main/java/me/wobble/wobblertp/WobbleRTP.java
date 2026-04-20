@@ -72,7 +72,7 @@ public final class WobbleRTP extends JavaPlugin {
 
         @Override
         public Thread newThread(Runnable runnable) {
-            Thread thread = new Thread(runnable, "WobbleRTP-Search-" + counter++);
+            Thread thread = new Thread(runnable, "WRTP-Search-" + counter++);
             thread.setDaemon(true);
             return thread;
         }

@@ -1,6 +1,6 @@
-# WobbleRTP
+# WRTP
 
-WobbleRTP is a modern, high-performance random teleport plugin with a GUI-based interface and asynchronous location search. It is designed for SMP and large-scale servers where performance, safety, and user experience are critical.
+WRTP is a modern, high-performance random teleport plugin with a GUI-based interface and asynchronous location search. It is designed for SMP and large-scale servers where performance, safety, and user experience are critical.
 
 ## Features
 
@@ -24,7 +24,7 @@ Each option includes lore, feedback, and visual clarity.
 
 ## Performance
 
-WobbleRTP uses a hybrid teleport algorithm:
+WRTP uses a hybrid teleport algorithm:
 
 1. Fast Path  
    Attempts to find a safe location in already loaded chunks (instant, zero lag)

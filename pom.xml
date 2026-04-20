@@ -4,11 +4,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>me.wobble</groupId>
-    <artifactId>WobbleRTP</artifactId>
+    <artifactId>WRTP</artifactId>
     <version>1.0.0</version>
     <packaging>jar</packaging>
 
-    <name>WobbleRTP</name>
+    <name>WRTP</name>
     <description>Production-ready random teleport plugin for Paper 1.21.4</description>
 
     <properties>
@@ -33,7 +33,7 @@
     </dependencies>
 
     <build>
-        <finalName>WobbleRTP-1.0.0</finalName>
+        <finalName>WRTP-1.0.0</finalName>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
